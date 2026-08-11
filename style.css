@@ -14,3 +14,30 @@
     --font-size-paragraph: 1.0625rem;
     --font-size-other: 0.875rem;
 }
+body {
+    font-size: var(--font-size);
+    font-family: var(--font-family);
+
+    background-color: var(--colour-blue-600);
+}
+main {
+    display: flex;
+    flex-direction: column;
+    color: var(--colour-white);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 1.5rem;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+article {
+    padding: 1.5rem;
+    border-block: 0.0625rem var(--colour-blue-400) solid;
+}
+.main-article {
+    padding: 3.375rem 2rem;
+}
