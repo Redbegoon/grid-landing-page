@@ -1,0 +1,16 @@
+:root {
+    --colour-blue-200: hsl(224, 100%, 95%);
+    --colour-blue-400: hsl(220, 100%, 64%);
+    --colour-blue-600: hsl(228, 100%, 60%);
+    --colour-blue-700: hsl(228, 99%, 58%);
+    --colour-white: hsl(0, 0%, 100%);
+
+    --font-family: 'Inter', monospace;
+
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+
+    --font-size: 16px;
+    --font-size-paragraph: 1.0625rem;
+    --font-size-other: 0.875rem;
+}
