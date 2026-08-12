@@ -17,8 +17,9 @@
 body {
     font-size: var(--font-size);
     font-family: var(--font-family);
+    font-weight: var(--font-weight-regular);
 
-    background-color: var(--colour-blue-600);
+    background-color: var(--colour-blue-700);
 }
 main {
     display: flex;
@@ -28,16 +29,66 @@ main {
 nav {
     display: flex;
     justify-content: space-between;
-    margin-inline: 1.5rem;
+    align-items: center;
+    padding: 1.5rem;
 }
 header {
     display: flex;
     justify-content: space-between;
 }
 article {
+    box-sizing: border-box;
+    height: 20.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 1.5rem;
     border-block: 0.0625rem var(--colour-blue-400) solid;
 }
+h2 {
+    font-size: 2.5rem;
+    font-weight: var(--font-weight-regular);
+}
+h1 {
+    font-size: 2.5rem;
+    font-weight: var(--font-weight-medium);
+}
+h3 {
+    font-weight: var(--font-weight-medium);
+}
+a {
+    color: var(--colour-white);
+    transition: font-size 400ms ease-in-out 0s;
+}
+a:hover {
+    font-size: var(--font-size-paragraph);
+}
+nav h3 {
+    font-size: var(--font-size-other);
+    font-weight: var(--font-weight-regular);
+}
+article p {
+    color: var(--colour-blue-200);
+    line-height: 1.2;
+    font-size: var(--font-size-other);
+}
+section > footer {
+    padding: 1.5rem;
+    line-height: 1.5;
+    color: var(--colour-blue-200);
+}
+.main-article p {
+    font-size: var(--font-size-paragraph);
+    line-height: 1.5;
+}
+article footer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
 .main-article {
     padding: 3.375rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
